@@ -18,14 +18,14 @@ a { color: inherit; text-decoration: none; }
 .nav-links { display: flex; gap: 30px; }
 .nav-links a { color: var(--muted); font-size: 14px; font-weight: 500; padding: 6px 0; }
 .nav-links a:hover, .nav-links .active { color: var(--ink); border-bottom: 2px solid var(--orange); }
-.profile-hero { align-items: center; border-bottom: 1px solid var(--line); display: grid; gap: 40px; grid-template-columns: 240px minmax(0, 1fr); margin: 0 auto; max-width: 1180px; padding: 32px 32px 56px; }
-.profile-hero-photo { border: 3px solid rgba(23, 32, 29, .12); border-radius: 50%; display: block; height: 240px; object-fit: cover; object-position: center 22%; width: 240px; }
+.profile-hero { align-items: center; border-bottom: 1px solid var(--line); display: grid; gap: 44px; grid-template-columns: 300px minmax(0, 1fr); margin: 0 auto; max-width: 1180px; padding: 36px 32px 70px; }
+.profile-hero-photo { border: 3px solid rgba(23, 32, 29, .12); border-radius: 50%; display: block; height: 300px; object-fit: cover; object-position: center 22%; width: 300px; }
 .profile-hero-copy { max-width: 760px; }
-.profile-hero .eyebrow { color: var(--orange); }
-.profile-hero h1 { font-family: "Space Grotesk", sans-serif; font-size: clamp(46px, 7vw, 88px); letter-spacing: -.06em; line-height: .96; margin: 16px 0 18px; }
-.profile-meta { display: flex; flex-wrap: wrap; gap: 12px 28px; margin-bottom: 20px; }
-.profile-meta span { color: var(--ink); font-size: 15px; font-weight: 600; }
-.profile-blurbs { display: grid; gap: 16px; max-width: 700px; }
+.profile-hero .eyebrow { color: var(--orange); font-size: 12px; margin-bottom: 8px; }
+.profile-hero h1 { font-family: "Space Grotesk", sans-serif; font-size: clamp(40px, 5vw, 72px); letter-spacing: -.06em; line-height: .96; margin: 0 0 18px; }
+.profile-meta { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-bottom: 52px; }
+.profile-meta span { color: var(--ink); font-size: 14px; font-weight: 600; }
+.profile-blurbs { display: grid; gap: 18px; margin-top: 10px; max-width: 690px; }
 .profile-blurbs p { color: var(--muted); font-size: 17px; line-height: 1.7; }
 .banner { background: var(--ink); color: var(--paper); margin: 0 auto; max-width: 1180px; min-height: 370px; padding: 72px clamp(32px, 8vw, 120px); position: relative; overflow: hidden; }
 .banner::after { background: var(--lime); border-radius: 50%; content: ""; height: 280px; opacity: .9; position: absolute; right: 7%; top: -105px; width: 280px; }
