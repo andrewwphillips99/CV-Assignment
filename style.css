@@ -19,7 +19,7 @@ a { color: inherit; text-decoration: none; }
 .nav-links a { color: var(--muted); font-size: 14px; font-weight: 500; padding: 6px 0; }
 .nav-links a:hover, .nav-links .active { color: var(--ink); border-bottom: 2px solid var(--orange); }
 .profile-hero { align-items: center; border-bottom: 1px solid var(--line); display: grid; gap: 44px; grid-template-columns: 300px minmax(0, 1fr); margin: 0 auto; max-width: 1180px; padding: 36px 32px 70px; }
-.profile-hero-photo { border: 3px solid rgba(23, 32, 29, .12); border-radius: 50%; display: block; height: 300px; object-fit: cover; object-position: center 22%; width: 300px; }
+.profile-hero-photo { border: 3px solid rgba(23, 32, 29, .12); border-radius: 50%; display: block; height: 300px; object-fit: cover; object-position: center 18%; width: 300px; }
 .profile-hero-copy { max-width: 760px; }
 .profile-hero .eyebrow { color: var(--orange); font-size: 12px; margin-bottom: 8px; }
 .profile-hero h1 { font-family: "Space Grotesk", sans-serif; font-size: clamp(40px, 5vw, 72px); letter-spacing: -.06em; line-height: .96; margin: 0 0 18px; }
