@@ -61,7 +61,8 @@ h2 { font-family: "Space Grotesk", sans-serif; font-size: clamp(32px, 4vw, 54px)
 .about-grid { display: grid; gap: 28px; grid-template-columns: repeat(3, 1fr); }
 .about-card { border: 1px solid var(--line); background: var(--card); }
 .about-card-media { align-items: center; background: var(--line); color: var(--muted); display: flex; font-family: "Space Grotesk", sans-serif; font-size: 13px; height: 230px; justify-content: center; letter-spacing: .1em; max-width: 100%; overflow: hidden; text-transform: uppercase; width: 100%; }
-.about-card-media img { display: block; height: 100%; object-fit: cover; width: 100%; }
+.about-card-media.has-image { height: auto; }
+.about-card-media img { display: block; height: auto; object-fit: contain; width: 100%; }
 .about-card-content { padding: 24px; }
 .about-card-content h2 { font-size: 30px; margin: 14px 0 12px; }
 .about-card-content p { color: var(--muted); }
@@ -89,6 +90,7 @@ h2 { font-family: "Space Grotesk", sans-serif; font-size: clamp(32px, 4vw, 54px)
   .intro-grid, .content-grid, .experience-section, .skills-section { gap: 42px; grid-template-columns: 1fr; }
   .about-grid { grid-template-columns: 1fr; }
   .about-card-media { height: 210px; width: 100%; }
+  .about-card-media.has-image { height: auto; }
   .experience-section + .experience-section { margin-top: 68px; padding-top: 68px; }
   .stat-row { gap: 22px; justify-content: space-between; margin-top: 70px; }
   .stat-row strong { font-size: 28px; }
