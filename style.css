@@ -60,7 +60,7 @@ h2 { font-family: "Space Grotesk", sans-serif; font-size: clamp(32px, 4vw, 54px)
 .timeline, .project-list { display: grid; gap: 0; }
 .about-grid { display: grid; gap: 28px; grid-template-columns: repeat(3, 1fr); }
 .about-card { border: 1px solid var(--line); background: var(--card); }
-.about-card-media { align-items: center; background: var(--line); color: var(--muted); display: flex; font-family: "Space Grotesk", sans-serif; font-size: 13px; height: 230px; justify-content: center; letter-spacing: .1em; text-transform: uppercase; }
+.about-card-media { align-items: center; aspect-ratio: 1; background: var(--line); color: var(--muted); display: flex; font-family: "Space Grotesk", sans-serif; font-size: 13px; height: 230px; justify-content: center; letter-spacing: .1em; max-width: 100%; text-transform: uppercase; width: 230px; }
 .about-card-media img { display: block; height: 100%; object-fit: cover; width: 100%; }
 .about-card-content { padding: 24px; }
 .about-card-content h2 { font-size: 30px; margin: 14px 0 12px; }
@@ -88,7 +88,7 @@ h2 { font-family: "Space Grotesk", sans-serif; font-size: clamp(32px, 4vw, 54px)
   .page-shell { padding: 68px 24px; }
   .intro-grid, .content-grid, .experience-section, .skills-section { gap: 42px; grid-template-columns: 1fr; }
   .about-grid { grid-template-columns: 1fr; }
-  .about-card-media { height: 210px; }
+  .about-card-media { height: 210px; width: 210px; }
   .experience-section + .experience-section { margin-top: 68px; padding-top: 68px; }
   .stat-row { gap: 22px; justify-content: space-between; margin-top: 70px; }
   .stat-row strong { font-size: 28px; }
