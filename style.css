@@ -61,7 +61,7 @@ h2 { font-family: "Space Grotesk", sans-serif; font-size: clamp(32px, 4vw, 54px)
 .about-grid { display: grid; gap: 28px; grid-template-columns: repeat(3, 1fr); }
 .about-card { border: 1px solid var(--line); background: var(--card); }
 .about-card-media { align-items: center; aspect-ratio: 1 / 1; background: var(--line); color: var(--muted); display: flex; flex: 0 0 230px; font-family: "Space Grotesk", sans-serif; font-size: 13px; height: 230px; justify-content: center; letter-spacing: .1em; max-width: 100%; overflow: hidden; text-transform: uppercase; width: 230px; }
-.about-card-media img { display: block; height: 100%; object-fit: contain; width: 100%; }
+.about-card-media img { display: block; height: 100%; object-fit: cover; width: 100%; }
 .about-card-content { padding: 24px; }
 .about-card-content h2 { font-size: 30px; margin: 14px 0 12px; }
 .about-card-content p { color: var(--muted); }
